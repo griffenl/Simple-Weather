@@ -16,6 +16,7 @@
 		9429CD3F203F407100354D2C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9429CD3E203F407100354D2C /* APIClient.swift */; };
 		94DF1AAF203F884900305744 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF1AAE203F884900305744 /* Endpoint.swift */; };
 		94DF1AB1203F8A8100305744 /* WeatherAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF1AB0203F8A8100305744 /* WeatherAPIClient.swift */; };
+		94DF1AB3203F8EE800305744 /* WeatherCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF1AB2203F8EE800305744 /* WeatherCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9429CD3E203F407100354D2C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		94DF1AAE203F884900305744 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		94DF1AB0203F8A8100305744 /* WeatherAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIClient.swift; sourceTree = "<group>"; };
+		94DF1AB2203F8EE800305744 /* WeatherCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		9429CD37203F361A00354D2C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				94DF1AB2203F8EE800305744 /* WeatherCellViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				9429CD3A203F363B00354D2C /* WeatherTableViewController.swift in Sources */,
 				9429CD3D203F3A1E00354D2C /* Weather.swift in Sources */,
 				9429CD26203E6E2800354D2C /* AppDelegate.swift in Sources */,
+				94DF1AB3203F8EE800305744 /* WeatherCellViewModel.swift in Sources */,
 				9429CD3F203F407100354D2C /* APIClient.swift in Sources */,
 				94DF1AAF203F884900305744 /* Endpoint.swift in Sources */,
 			);
